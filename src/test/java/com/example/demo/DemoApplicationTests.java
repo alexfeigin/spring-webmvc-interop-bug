@@ -26,8 +26,8 @@ class DemoApplicationTests {
                 .postForEntity("http://localhost:" + this.port + "/a/b/var1/c/e/var2", null, String.class, "Arcade");
 
         Assertions.assertThat(entity.getStatusCode())
-                .as("/ is FOUND")
-                .isEqualTo(HttpStatus.OK);
+                .as("/ is NOT_FOUND")
+                .isEqualTo(HttpStatus.NOT_FOUND);
 
     }
 
