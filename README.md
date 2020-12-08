@@ -6,4 +6,4 @@ it looks like `AsyncServerResponse` has an interop problem with function routing
 
 related issue in spring-framework [issue 26239](https://github.com/spring-projects/spring-framework/issues/26239)
 
-fixed by [commit cb2b141](https://github.com/spring-projects/spring-framework/commit/cb2b141d317947f12a88bc47745160d2e9b7c2bc)
+fixed by [commit 2b77c08](https://github.com/spring-projects/spring-framework/commit/2b77c08e09d978d35cfc85584972ce8a0270fd45)
